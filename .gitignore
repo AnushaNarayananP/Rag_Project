@@ -1,0 +1,25 @@
+# Ignore data & models
+data/*
+models/*
+vector_store/*
+
+# Keep folder structure
+!data/.gitkeep
+!models/.gitkeep
+!vector_store/.gitkeep
+
+# Large ML files
+*.pt
+*.bin
+*.pkl
+*.faiss
+*.index
+*.onnx
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.env
+venv/
